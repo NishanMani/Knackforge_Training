@@ -1,0 +1,54 @@
+body{
+    background: #b5b3e8;
+background: linear-gradient(90deg, rgba(181, 179, 232, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+#form{
+    width: 400px;
+    margin: 20vh auto 0 auto;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+h1{
+    text-align: center;
+}
+
+#form button{
+    padding: 10px;
+    margin: 20px 0px;
+    border-radius: 5px;
+    border: solid;
+    cursor: pointer;
+    width: 100%;
+   background: #020024;
+background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 212, 255, 1) 100%);
+
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.input-group input{
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.input-group .error{
+    color: red;
+    font-size: 15px;
+    margin-top: 2px;
+}
+
+.input-group.succes input{
+    border-color: green;
+}
+
+.input-group.error input{
+    border-color: red;
+}
